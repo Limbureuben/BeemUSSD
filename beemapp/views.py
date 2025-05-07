@@ -5,7 +5,7 @@ from django.shortcuts import render
 
 from flask import Flask,request,jsonify,Response;
 import json;
-import requests; 
+import requests;
 
 app = Flask(__name__)
  
